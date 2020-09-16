@@ -20,7 +20,11 @@
         {{- end }}
       </ul>
     </nav>
- 
+    {{ if $.Site.Params.qrcode -}}
+    <div class="qrcode">
+      <img src="{{ $.Site.Params.qrcode }}" alt="">
+    </div>
+    {{- end}}
   
 
   <script src="/js/fuse.min.js"></script> <!-- download and copy over fuse.min.js file from fusejs.io -->

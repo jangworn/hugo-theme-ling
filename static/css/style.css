@@ -496,7 +496,22 @@
   }
   
   
-  
+  .page404{
+    width:20rem;
+    margin:0 auto;
+    padding-top:3rem;
+    font-size:0.8rem;
+  }
+  .page404 a{
+    color:#1890ff;
+  }
+  .qrcode{
+    width:6rem;
+    margin:0 auto;
+  }
+  .qrcode img{
+    width:6rem;
+  }
   
   
   /*
