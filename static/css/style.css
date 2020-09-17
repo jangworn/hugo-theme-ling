@@ -56,11 +56,11 @@
   }
   h3 {
     margin-top: 1rem;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
   h4, h5, h6 {
     margin-top: 1rem;
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     font-weight: bold;
   }
   
@@ -212,6 +212,10 @@
   .content.container{
     min-height:55rem;
   }
+  .content.container div.post a{
+    color:#1890ff;
+  }
+  
   
   
   
