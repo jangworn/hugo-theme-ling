@@ -310,6 +310,7 @@
     text-align: center;
     color: rgba(255,255,255,.5);
     background-color: #202020;
+    box-shadow: 4px 3px 3px #d2d2d7;
   }
   .sidebar-sticky{
     padding: 2rem 1rem;
@@ -364,6 +365,7 @@
   .post{
     background:#fff;
     padding:3rem;
+    box-shadow: 4px 3px 3px #d2d2d7;
   }
   .read-more-link a{
     color:#1890ff;
@@ -377,7 +379,7 @@
   }
   
   @media (min-width: 48em) {
-    .content,.footer {
+    .content,.footer,.cnzz-stat {
       max-width: 67rem;
       margin-left: 18rem;
       margin-right: 2rem;
@@ -385,13 +387,16 @@
   }
   
   @media (min-width: 64em) {
-    .content,.footer {
+    .content,.footer,.cnzz-stat {
       margin-left: 17rem;
       margin-right: 2rem;
     }
   }
-  .footer{
+  .footer,.cnzz-stat{
     text-align:center;
+  }
+  .cnzz-stat{
+    display: inline-block;
   }
   
   
